@@ -1,5 +1,7 @@
 # RicohTheta
 
+![Ricoh theta camera](https://github.com/Winfooz/RicohTheta/blob/master/Resources/RicohThetaCamera.jpg)
+
 ### What is this repository for?
 
 - Support Ricoh theta camera SC and SC2 models
