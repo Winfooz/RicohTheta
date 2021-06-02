@@ -1,0 +1,436 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BAAB7DCBB066E1FB19567508 /* Pods_RicohThetaExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7243FA0AA9BEAC32176B58B /* Pods_RicohThetaExample.framework */; };
+		C02FAC412664EEDA00EC7C07 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02FAC402664EEDA00EC7C07 /* AppDelegate.swift */; };
+		C02FAC432664EEDA00EC7C07 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02FAC422664EEDA00EC7C07 /* SceneDelegate.swift */; };
+		C02FAC452664EEDA00EC7C07 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02FAC442664EEDA00EC7C07 /* ViewController.swift */; };
+		C02FAC482664EEDA00EC7C07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C02FAC462664EEDA00EC7C07 /* Main.storyboard */; };
+		C02FAC4A2664EEDB00EC7C07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C02FAC492664EEDB00EC7C07 /* Assets.xcassets */; };
+		C02FAC4D2664EEDB00EC7C07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C02FAC4B2664EEDB00EC7C07 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		446FEF5C572466E088A1BEE6 /* Pods-RicohThetaExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RicohThetaExample.debug.xcconfig"; path = "Target Support Files/Pods-RicohThetaExample/Pods-RicohThetaExample.debug.xcconfig"; sourceTree = "<group>"; };
+		C02FAC3D2664EEDA00EC7C07 /* RicohThetaExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RicohThetaExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C02FAC402664EEDA00EC7C07 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C02FAC422664EEDA00EC7C07 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C02FAC442664EEDA00EC7C07 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C02FAC472664EEDA00EC7C07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C02FAC492664EEDB00EC7C07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C02FAC4C2664EEDB00EC7C07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C02FAC4E2664EEDB00EC7C07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8EADC189F97FAA85968E41F /* Pods-RicohThetaExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RicohThetaExample.release.xcconfig"; path = "Target Support Files/Pods-RicohThetaExample/Pods-RicohThetaExample.release.xcconfig"; sourceTree = "<group>"; };
+		E7243FA0AA9BEAC32176B58B /* Pods_RicohThetaExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RicohThetaExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C02FAC3A2664EEDA00EC7C07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAAB7DCBB066E1FB19567508 /* Pods_RicohThetaExample.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6C88C851DF969CA8D8966355 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E7243FA0AA9BEAC32176B58B /* Pods_RicohThetaExample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC26F739A4295CCBEFE4BBF2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				446FEF5C572466E088A1BEE6 /* Pods-RicohThetaExample.debug.xcconfig */,
+				C8EADC189F97FAA85968E41F /* Pods-RicohThetaExample.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C02FAC342664EEDA00EC7C07 = {
+			isa = PBXGroup;
+			children = (
+				C02FAC3F2664EEDA00EC7C07 /* RicohThetaExample */,
+				C02FAC3E2664EEDA00EC7C07 /* Products */,
+				BC26F739A4295CCBEFE4BBF2 /* Pods */,
+				6C88C851DF969CA8D8966355 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C02FAC3E2664EEDA00EC7C07 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C02FAC3D2664EEDA00EC7C07 /* RicohThetaExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C02FAC3F2664EEDA00EC7C07 /* RicohThetaExample */ = {
+			isa = PBXGroup;
+			children = (
+				C02FAC402664EEDA00EC7C07 /* AppDelegate.swift */,
+				C02FAC422664EEDA00EC7C07 /* SceneDelegate.swift */,
+				C02FAC442664EEDA00EC7C07 /* ViewController.swift */,
+				C02FAC462664EEDA00EC7C07 /* Main.storyboard */,
+				C02FAC492664EEDB00EC7C07 /* Assets.xcassets */,
+				C02FAC4B2664EEDB00EC7C07 /* LaunchScreen.storyboard */,
+				C02FAC4E2664EEDB00EC7C07 /* Info.plist */,
+			);
+			path = RicohThetaExample;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C02FAC3C2664EEDA00EC7C07 /* RicohThetaExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C02FAC512664EEDB00EC7C07 /* Build configuration list for PBXNativeTarget "RicohThetaExample" */;
+			buildPhases = (
+				F7235BA4CF0DAA1CD8C846A4 /* [CP] Check Pods Manifest.lock */,
+				C02FAC392664EEDA00EC7C07 /* Sources */,
+				C02FAC3A2664EEDA00EC7C07 /* Frameworks */,
+				C02FAC3B2664EEDA00EC7C07 /* Resources */,
+				54D5A52EB2B079869E5744BC /* [CP] Embed Pods Frameworks */,
+				C02FACFC26669CA000EC7C07 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RicohThetaExample;
+			productName = RicohThetaExample;
+			productReference = C02FAC3D2664EEDA00EC7C07 /* RicohThetaExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C02FAC352664EEDA00EC7C07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					C02FAC3C2664EEDA00EC7C07 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = C02FAC382664EEDA00EC7C07 /* Build configuration list for PBXProject "RicohThetaExample" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C02FAC342664EEDA00EC7C07;
+			productRefGroup = C02FAC3E2664EEDA00EC7C07 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C02FAC3C2664EEDA00EC7C07 /* RicohThetaExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C02FAC3B2664EEDA00EC7C07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C02FAC4D2664EEDB00EC7C07 /* LaunchScreen.storyboard in Resources */,
+				C02FAC4A2664EEDB00EC7C07 /* Assets.xcassets in Resources */,
+				C02FAC482664EEDA00EC7C07 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		54D5A52EB2B079869E5744BC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RicohThetaExample/Pods-RicohThetaExample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RicohThetaExample/Pods-RicohThetaExample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RicohThetaExample/Pods-RicohThetaExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C02FACFC26669CA000EC7C07 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\ncd ../RicohTheta\n${PODS_ROOT}/SwiftLint/swiftlint\ncd ../RicohTheta/RicohThetaExample\n${PODS_ROOT}/SwiftLint/swiftlint\n";
+		};
+		F7235BA4CF0DAA1CD8C846A4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RicohThetaExample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C02FAC392664EEDA00EC7C07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C02FAC452664EEDA00EC7C07 /* ViewController.swift in Sources */,
+				C02FAC412664EEDA00EC7C07 /* AppDelegate.swift in Sources */,
+				C02FAC432664EEDA00EC7C07 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C02FAC462664EEDA00EC7C07 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C02FAC472664EEDA00EC7C07 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C02FAC4B2664EEDB00EC7C07 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C02FAC4C2664EEDB00EC7C07 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C02FAC4F2664EEDB00EC7C07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C02FAC502664EEDB00EC7C07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C02FAC522664EEDB00EC7C07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 446FEF5C572466E088A1BEE6 /* Pods-RicohThetaExample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PU9LT2X4AS;
+				INFOPLIST_FILE = RicohThetaExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.winfooz.RicohThetaExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C02FAC532664EEDB00EC7C07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8EADC189F97FAA85968E41F /* Pods-RicohThetaExample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PU9LT2X4AS;
+				INFOPLIST_FILE = RicohThetaExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.winfooz.RicohThetaExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C02FAC382664EEDA00EC7C07 /* Build configuration list for PBXProject "RicohThetaExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C02FAC4F2664EEDB00EC7C07 /* Debug */,
+				C02FAC502664EEDB00EC7C07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C02FAC512664EEDB00EC7C07 /* Build configuration list for PBXNativeTarget "RicohThetaExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C02FAC522664EEDB00EC7C07 /* Debug */,
+				C02FAC532664EEDB00EC7C07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C02FAC352664EEDA00EC7C07 /* Project object */;
+}

@@ -10,6 +10,8 @@
 		C02FAC012664ED6D00EC7C07 /* RicohTheta.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C02FABF72664ED6D00EC7C07 /* RicohTheta.framework */; };
 		C02FAC062664ED6D00EC7C07 /* RicohThetaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02FAC052664ED6D00EC7C07 /* RicohThetaTests.swift */; };
 		C02FAC082664ED6D00EC7C07 /* RicohTheta.h in Headers */ = {isa = PBXBuildFile; fileRef = C02FABFA2664ED6D00EC7C07 /* RicohTheta.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C02FAC5E2664F52900EC7C07 /* CommandPayload.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02FAC5D2664F52900EC7C07 /* CommandPayload.swift */; };
+		C02FAC622664F57800EC7C07 /* HttpConnectionProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02FAC612664F57800EC7C07 /* HttpConnectionProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +31,8 @@
 		C02FAC002664ED6D00EC7C07 /* RicohThetaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RicohThetaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C02FAC052664ED6D00EC7C07 /* RicohThetaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RicohThetaTests.swift; sourceTree = "<group>"; };
 		C02FAC072664ED6D00EC7C07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C02FAC5D2664F52900EC7C07 /* CommandPayload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandPayload.swift; sourceTree = "<group>"; };
+		C02FAC612664F57800EC7C07 /* HttpConnectionProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpConnectionProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +75,7 @@
 		C02FABF92664ED6D00EC7C07 /* RicohTheta */ = {
 			isa = PBXGroup;
 			children = (
+				C02FAC592664F4B400EC7C07 /* Source */,
 				C02FABFA2664ED6D00EC7C07 /* RicohTheta.h */,
 				C02FABFB2664ED6D00EC7C07 /* Info.plist */,
 			);
@@ -84,6 +89,39 @@
 				C02FAC072664ED6D00EC7C07 /* Info.plist */,
 			);
 			path = RicohThetaTests;
+			sourceTree = "<group>";
+		};
+		C02FAC592664F4B400EC7C07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				C02FAC5B2664F4E800EC7C07 /* Model */,
+				C02FAC5A2664F4BF00EC7C07 /* Protocol */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		C02FAC5A2664F4BF00EC7C07 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				C02FAC612664F57800EC7C07 /* HttpConnectionProtocol.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		C02FAC5B2664F4E800EC7C07 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C02FAC5C2664F50100EC7C07 /* Payload */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C02FAC5C2664F50100EC7C07 /* Payload */ = {
+			isa = PBXGroup;
+			children = (
+				C02FAC5D2664F52900EC7C07 /* CommandPayload.swift */,
+			);
+			path = Payload;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,6 +185,7 @@
 				TargetAttributes = {
 					C02FABF62664ED6D00EC7C07 = {
 						CreatedOnToolsVersion = 12.4;
+						LastSwiftMigration = 1240;
 					};
 					C02FABFF2664ED6D00EC7C07 = {
 						CreatedOnToolsVersion = 12.4;
@@ -194,6 +233,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C02FAC5E2664F52900EC7C07 /* CommandPayload.swift in Sources */,
+				C02FAC622664F57800EC7C07 /* HttpConnectionProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +382,7 @@
 		C02FAC0C2664ED6D00EC7C07 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = PU9LT2X4AS;
@@ -349,14 +391,18 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = RicohTheta/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MARKETING_VERSION = 0.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.winfooz.RicohTheta;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -365,6 +411,7 @@
 		C02FAC0D2664ED6D00EC7C07 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = PU9LT2X4AS;
@@ -373,14 +420,17 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = RicohTheta/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MARKETING_VERSION = 0.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.winfooz.RicohTheta;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -389,6 +439,7 @@
 		C02FAC0F2664ED6D00EC7C07 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PU9LT2X4AS;
 				INFOPLIST_FILE = RicohThetaTests/Info.plist;
@@ -407,6 +458,7 @@
 		C02FAC102664ED6D00EC7C07 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PU9LT2X4AS;
 				INFOPLIST_FILE = RicohThetaTests/Info.plist;

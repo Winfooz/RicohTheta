@@ -4,25 +4,15 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>RicohTheta.xcscheme_^#shared#^_</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>0</integer>
-		</dict>
 		<key>RicohThetaExample.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>1</integer>
+			<integer>4</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>C02FABF62664ED6D00EC7C07</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>C02FABFF2664ED6D00EC7C07</key>
+		<key>C02FAC3C2664EEDA00EC7C07</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -1,0 +1,29 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '13.0'
+
+# ignore all warnings from all pods
+inhibit_all_warnings!
+
+target 'RicohThetaExample' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for RicohThetaExample
+  pod 'RicohTheta', :path => '../', :testspecs  => ['UnitTests']
+  pod 'SwiftLint'
+
+
+  post_install do |installer|
+    installer.pods_project.targets.each do |target|
+        target.build_configurations.each do |config|
+          if config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'].to_f < 12.0
+            config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '12.0'
+          end
+          if ['GenericJSON'].include? target.name
+            config.build_settings['SWIFT_VERSION'] = '5.0'
+          end
+      end
+    end
+  end
+  
+end

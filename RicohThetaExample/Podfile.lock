@@ -1,0 +1,30 @@
+PODS:
+  - GenericJSON (2.0.1)
+  - RicohTheta (0.0.1):
+    - GenericJSON
+  - RicohTheta/UnitTests (0.0.1):
+    - GenericJSON
+  - SwiftLint (0.43.1)
+
+DEPENDENCIES:
+  - RicohTheta (from `../`)
+  - RicohTheta/UnitTests (from `../`)
+  - SwiftLint
+
+SPEC REPOS:
+  trunk:
+    - GenericJSON
+    - SwiftLint
+
+EXTERNAL SOURCES:
+  RicohTheta:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GenericJSON: a6e74e2c457f8693caab08e0eafde7d97e6666de
+  RicohTheta: 1b73db28c5e1e2a780511418c6d36417959588d5
+  SwiftLint: 99f82d07b837b942dd563c668de129a03fc3fb52
+
+PODFILE CHECKSUM: 76b6b74383f9c950bd87749460ce6c2743c33925
+
+COCOAPODS: 1.10.1
